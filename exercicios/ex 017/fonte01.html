@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16px são 1em
+            */
+            font-size: 1em;
+        } 
+
+        h1{
+            /* shorthand font
+            -font style -> font weight -> font size -> font family
+            
+            font-family:'work sans',sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style:italic;
+            */
+            font: italic bolder 3em 'work sans' , sans-serif;
+        }
+
+        h2{
+            font: bold 3em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sapiente similique voluptas sint quae impedit, aspernatur exercitationem necessitatibus maxime qui molestiae totam, soluta cumque asperiores nisi consequuntur facere! In, debitis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis mollitia quos repudiandae similique distinctio molestiae eius, nesciunt accusamus aut quibusdam neque cumque sint hic ea possimus quisquam deserunt accusantium.</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptatum nesciunt, numquam maiores nam hic reiciendis necessitatibus! Ad atque, autem mollitia eius accusantium debitis distinctio iste dolorem amet blanditiis. Illum!</p>
+
+    <h2>Subtitulo do exercicios</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolorem eaque cupiditate veniam aspernatur. Est tempora quis repudiandae, officia, ad, odio aspernatur provident corrupti rerum nobis minima fuga magni accusamus.</p>
+</body>
+</html>
