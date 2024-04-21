@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafio astronalta</title>
     <style>
-body{
-    margin: 0px 0px;
-}
-
-#fundo{
-    background: black url('imagens/espaco.jpg') center center no-repeat fixed;
-    background-size: cover;
-
    
+body{
+    background-color: black;
+}
+section#fundo{
+    margin: 0px;
+    padding:0px;
+    position: relative;
 }
 
-#astronalta{
-    background: fixed  url('imagens/astronauta.png') center center no-repeat;
-
-    height: 651px;
-
+div#astronalta {
+    position: absolute;
+    top: 15%;
+    left: 25%;
 }
     </style>
 </head>
 <body>
     <section id="fundo">
-        <article id="astronalta">
 
-        </article>
+        <img src="./imagens/espaco01.jpg" alt="imagem de fundo">
 
+
+    <div id="astronalta">
+
+        <img src="./imagens/astronauta.png" alt="astronalt">
+
+    </div>
     </section>
+    
 </body>
 </html>
