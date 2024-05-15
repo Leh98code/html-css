@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabela</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.5em;
+    padding-bottom: 2px;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.cnome{
+    background-color: aquamarine;
+}
+
+.cidade{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade" span="2">
+        <col class="cprofissão">
+        </colgroup>
+        <caption><strong>cadastro</strong></caption>
+
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>idade</th>
+                <th>profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>ana maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>jornalista</td>
+            </tr>
+
+            <tr>
+                <td>claudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>progamador</td>
+            </tr>
+
+            <tr>
+                <td>gustavo</td>
+                <td>M</td>
+                <td>22</td>
+                <td>professor</td>
+            </tr>
+
+            <tr>
+                <td>helio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>vendedor</td>
+            </tr>
+
+            <tr>
+                <td>maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>médica</td>
+            </tr>
+
+            <tr>
+                <td>leandro</td>
+                <td>M</td>
+                <td>26</td>
+                <td>motoboy</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
